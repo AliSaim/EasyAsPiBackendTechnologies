@@ -4,7 +4,8 @@
   "description": "This is the testing for Easy as Pi's backend technologies and it setup and configuration documentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,10 @@
   "homepage": "https://github.com/AliSaim/EasyAsPiBackendTechnologies#readme",
   "dependencies": {
     "body-parser": "^1.17.0",
+    "connect": "^3.6.0",
     "express": "^4.15.0",
     "mongoose": "^4.8.5",
     "node-restful": "^0.2.6"
-  }
+  },
+  "devDependencies": {}
 }
