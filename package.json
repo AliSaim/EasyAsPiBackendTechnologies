@@ -1,0 +1,34 @@
+{
+  "name": "easyaspibackenddoc",
+  "version": "1.0.0",
+  "description": "This is the testing for Easy as Pi's backend technologies and it setup and configuration documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliSaim/EasyAsPiBackendTechnologies.git"
+  },
+  "keywords": [
+    "EasyAsPi",
+    "NodeJS",
+    "MongoDB",
+    "MLab",
+    "Mongoose",
+    "Server",
+    "Nodemon"
+  ],
+  "author": "Ali Saim - 300759480",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliSaim/EasyAsPiBackendTechnologies/issues"
+  },
+  "homepage": "https://github.com/AliSaim/EasyAsPiBackendTechnologies#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "mongoose": "^4.8.5",
+    "node-restful": "^0.2.6"
+  }
+}
