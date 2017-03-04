@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://easyaspiadmin:pass123@ds145369.mlab.com:45369/easyaspidb');
 
 //routes
-app.use('api', require('./routes/api'));
+app.use('/api', require('./routes/api'));
 
 //start the server
 app.listen(1000);
